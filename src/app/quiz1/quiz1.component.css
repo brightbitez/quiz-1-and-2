@@ -1,0 +1,22 @@
+
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  
+  .left {
+    width: 200px;
+  }
+  .mid {
+    flex-grow: 1;
+    min-width: 100px;
+  }
+  .right {
+    width: 300px;
+  }
+  .content {
+      border-style: solid;
+      border-width: thin;
+  }
